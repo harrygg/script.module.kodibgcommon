@@ -12,6 +12,10 @@ def log_error(msg):
   log(msg, xbmc.LOGERROR)
 
 
+def log_debug(msg):
+  log(msg, xbmc.LOGDEBUG)
+
+
 def log_last_exception():
   log_error(get_last_exception())
 
